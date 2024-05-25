@@ -1,61 +1,16 @@
-24 8 8 12
-13-O 13-E 7-P 9-P 7-E 4-E 11-C 2-C 4-O 9-C 10-O 10-P 6-P 13-C 8-P 1-O 1-P 6-O 9-E 4-P 3-C 5-C 5-O 8-C
-9-O 8-O 11-E 5-P 6-C 5-E 10-E 1-E
-12-O 10-C 12-E 11-O 8-E 3-P 3-O 1-C
-2-P 13-P 3-E 4-C 2-O 2-E 7-O 6-E 7-C 11-P 12-C 12-P
-8 16 20 8
-7-P 10-P 5-C 3-O 11-E 13-E 1-P 11-P
-8-O 5-O 10-E 4-E 11-O 4-C 3-C 1-C 13-P 12-P 7-C 13-O 6-E 7-E 1-O 6-O
-2-O 9-C 7-O 2-P 5-P 5-E 12-O 8-P 9-O 12-E 9-E 10-O 8-C 12-C 1-E 10-C 2-C 4-O 11-C 3-E
-8-E 13-C 3-P 6-C 9-P 6-P 4-P 2-E
-4 4 40 4
-10-E 8-C 13-C 10-P
-9-O 10-C 5-E 8-E
-13-O 8-O 7-O 13-P 5-C 2-C 6-O 5-O 1-E 3-P 11-C 7-E 6-C 12-O 4-P 11-O 2-E 10-O 2-O 1-C 3-C 6-P 4-E 7-C 13-E 3-O 4-C 4-O 9-E 3-E 12-P 11-E 7-P 2-P 12-E 6-E 8-P 9-C 12-C 9-P
-5-P 1-P 11-P 1-O
-8 12 24 8
-8-E 3-P 7-O 1-O 11-O 6-P 2-O 9-O
-9-P 10-C 12-C 7-P 11-E 11-C 3-O 5-P 11-P 7-E 13-O 8-O
-6-O 3-C 2-P 4-E 8-C 2-E 7-C 8-P 10-P 3-E 5-E 4-P 6-C 2-C 4-C 12-P 6-E 10-E 5-O 13-E 10-O 13-P 9-E 5-C
-9-C 12-E 1-P 1-E 12-O 4-O 13-C 1-C
-4 8 4 36
-4-P 7-C 1-C 10-O
-7-O 2-P 12-E 9-P 1-O 13-C 11-P 6-C
-5-E 13-E 10-P 12-O
-3-E 6-O 1-E 9-E 3-P 10-E 8-O 4-O 2-O 3-O 8-P 13-O 11-C 7-P 12-C 2-E 9-C 11-E 9-O 7-E 12-P 11-O 5-P 10-C 8-E 13-P 8-C 5-O 1-P 6-P 2-C 4-C 4-E 3-C 5-C 6-E
-8 4 16 24
-11-E 9-P 3-C 2-C 6-E 7-C 13-C 2-E
-4-P 12-E 9-O 6-C
-10-C 1-P 4-E 1-C 12-P 4-C 9-E 3-O 7-E 7-O 12-O 8-E 1-E 2-P 13-E 5-E
-4-O 12-C 7-P 8-C 13-O 6-P 2-O 10-O 9-C 8-P 3-E 6-O 5-C 5-P 11-P 10-E 3-P 11-O 13-P 8-O 10-P 1-O 5-O 11-C
-8 24 12 8
-3-P 7-C 9-P 2-P 1-C 4-E 12-C 9-E
-2-O 5-E 6-E 12-P 10-E 9-C 11-P 9-O 6-P 4-P 13-O 7-O 11-O 4-C 3-C 13-P 12-E 11-E 8-O 1-O 11-C 3-E 10-O 8-P
-1-P 13-C 10-C 8-E 7-E 5-P 7-P 8-C 6-C 2-E 3-O 5-C
-12-O 1-E 4-O 13-E 6-O 5-O 2-C 10-P
-8 4 20 20
-7-C 4-E 2-C 5-P 13-C 9-E 12-E 8-C
-5-E 9-O 8-P 7-E
-1-C 1-E 1-O 11-C 12-C 3-E 8-E 6-P 13-P 13-O 7-O 9-P 2-P 13-E 5-O 11-E 10-E 10-C 3-P 8-O
-2-O 11-P 1-P 3-C 5-C 6-E 6-C 7-P 3-O 4-O 11-O 12-O 9-C 2-E 10-O 6-O 10-P 4-P 4-C 12-P
-24 4 20 4
-9-C 2-E 4-C 10-E 11-E 7-P 10-P 8-P 3-E 12-C 1-C 8-O 12-E 3-C 4-E 9-O 6-P 4-P 7-E 8-C 13-C 2-O 11-C 6-O
-12-P 6-E 5-E 2-C
-11-P 5-O 3-O 13-O 1-E 1-P 7-O 2-P 9-E 9-P 1-O 5-P 6-C 13-E 10-C 10-O 12-O 7-C 11-O 13-P
-8-E 4-O 3-P 5-C
-12 16 12 12
-12-O 8-O 12-C 12-P 13-C 6-E 4-O 13-P 1-O 3-P 7-O 1-E
-1-P 9-C 8-P 3-O 11-C 5-O 5-E 11-E 7-C 9-E 3-E 2-O 1-C 13-O 6-P 8-E
-4-E 6-O 12-E 5-P 10-E 7-P 4-P 11-O 5-C 9-P 10-O 9-O
-4-C 11-P 10-C 8-C 13-E 10-P 2-E 2-P 6-C 2-C 3-C 7-E
-12 16 20 4
-5-C 9-E 6-P 11-C 1-P 1-C 9-P 13-C 12-O 10-P 5-O 9-O
-12-E 8-O 2-P 11-O 3-P 10-C 12-P 13-E 10-E 1-E 5-E 12-C 3-C 8-E 11-P 7-O
-13-P 4-O 6-E 6-O 2-E 6-C 4-E 11-E 7-C 3-E 10-O 8-C 9-C 8-P 7-E 2-O 13-O 7-P 3-O 2-C
-1-O 4-C 4-P 5-P
-20 8 20 4
-13-E 11-C 10-O 1-E 11-O 5-C 10-C 10-E 1-O 13-P 2-E 5-E 11-P 11-E 13-O 7-E 1-P 4-O 9-C 3-C
-2-C 12-O 5-P 2-P 6-P 8-P 9-O 12-E
-4-P 4-E 13-C 2-O 8-C 3-O 6-E 7-C 5-O 10-P 12-P 9-P 7-O 12-C 1-C 7-P 3-P 8-O 8-E 3-E
-6-O 9-E 6-C 4-C
-
+10
+Assassin's Creed Unity had a bit of a launch failure. The game was riddled with bugs, some making the game unplayable. Because this seems to be happening more often, I generally don't buy games like this on launch day. (Bethesda taught me that lesson) Now that several gigs worth of updates and patches have been released, I thought it would be a safe bet. I was right. So, do yourself a favor, ignore the 1 star reviews citing the bugs and glitches, they are now irrelevant. I've been playing AC since the original and have played all releases both console and portable up to this point. I was getting a little worried with the last couple games as they just didn't grab me the way that the Ezio Trilogy (AC II, Brotherhood and Revelations). I contemplated giving up on the series, but I'm glad I didn't. AC: Unity has recaptured the play and feel of the Ezio adventures.
+The game starts out as most AC titles do. You are an average young person, enjoying your average life. You are quickly impacted by a great tragedy. This tragedy, you will find out, is part of a much larger plot and you are - in reality - descended from a long line of Assassins. You take up sword and hidden blade and focus on training so that you may exact your revenge. Arno reminds me of a slightly less cocky Ezio. The writing and voice acting is all well-done. The story is interesting and well-paced. The world is HUGE. I think this is the largest yet. Paris is rendered beautifully, historical cathedrals and government buildings have been recreated with painstaking detail. It's stunning. The world is very densely populated. I can see why there were framerate issues initially. There are streets that are shoulder to shoulder people, crowds are everywhere, fire is everywhere. It's pretty insane that the hardware can render everything. I've had no issues with chugging or framerate dropping however, these issues have been resolved.
+There are two factions who will get in your way; the guards and the revolutionaries. Neither faction will attack you on site like in some of the earlier titles. However, if you make it a habit of frequently killing one or the other or both, they'll start recognizing you outright and attacking you on the spot due to your reputation. There's no tearing down fliers or paying off town criers this time around either. When you're marked, you're marked. The combat is also much more challenging and realistic. I remember taking on dozens of guards in the earlier game and dispatching them with ease. This was because they'd essentially line up and take turns attacking. You'd parry, counter, parry, counter, etc until all were dead. Not in Unity. Guards/Revolutionaries will swarm on you and attack simultaneously often while one of them stands back and shoots at you with a flintlock. You will need to hone your parrying and dodging skills as well as utilize your smoke bombs and other various tricks to survive. Even then, you may make one wrong move and find yourself impaled on a rapier. It's a refreshing improvement even though it's maddening at times.
+Unity really pushes customization. Unlike the previous titles where you had essentially 3-4 sets of gear and then a ""master set"" of some kind, Unity has several options in each of five tiers and then a legendary tier. Each option has slightly different stats and looks markedly different. There is also a myriad of color palettes to change your outfit. Weapons follow the same system. This is done so that when you play co-op with your friends you don't look like the clone gang running around. It's a cool feature and definitely keeps things unique. Gear can be purchased, but some can only be unlocked by completing certain missions or achievements.
+Also, your equipment and weapons actually make a difference. In some of the earlier titles I'd find myself upgrading my weapons and equipment just to look cooler and to fill up my weapon room. However, because counter attacking was almost always an instant kill - no matter the caliber of your weapon - there wasn't really a need. In Unity your gear will make a big difference. The damage you do when countering and outright attacking is largely impacted by what you're wearing/wielding and your enemies are different levels (1-5) as well. You may be in the wrong area with subpar equipment and find yourself in a bad situation very quickly. It's nice that equipment has graduated from being mostly cosmetic.
+Gameplay is largely the same as it has been in the past. You have the primary story missions, side missions, chests/artifact/trinkets littered around to collect, shops to buy and renovate, etc. You are able to do these at your leisure. There are also random muggings and criminal activities for you to thwart. This is done by either tackling, killing or threatening the assailants. Each time you complete one, you get a point towards a total goal of points, once you reach your goal you get a reward (money, special equipment, etc) then it resets with a higher goal. You can no longer harm or kill innocents. I appreciate this as it always irritated me when a civilian got in the way of a fight and I accidently killed them.
+Co-op is handled by missions. There will be an NPC at various positions around the city and they will offer you a co-op quest when you approach them. This can be done with your friends, or random matchmaking. It makes it easy to knock out a co-op mission and get back to your single player. There are also Clubs you can create or join. This is essentially a guild where you share a common space and can compete via rankings with other guilds. It's a nice addition and makes it easier to play with people you want to play with.
+Micro transactions are prevalent in Unity. This is a bit off-putting to me. Additional missions were available for purchase on launch. I don't mind DLC when it is a significant amount of content created after the release and it isn't a situation where I'm being forced to pay for the ""good"" ending. Paying for additional missions off the bat seems in poor taste, however, as it probably could've just been included in the game instead of being ransomed after the fact. Also, you can pay real money for gear. It's gear that you can just buy with in-game currency as well, but the ""pay to cheat"" option just feels fickle to me. Lastly, there is a man who stands in your base who will allow you to join a friend's game or invite them to yours. I was notified that I had a friend who was currently online. I didn't realize this friend had bought Unity so I clicked ""Invite to Join Your Game"". I got a text message from the friend saying that he was taken to the purchase page for Unity. He was online but wasn't playing Unity and didn't own it. It seems like a stupid ploy to get your friends to buy the game. While this is all annoying, it's not game breaking and you can easily spend zero extra dollars and play the complete game without feeling like you're missing out.
+Ubisoft has been offering a service called UPlay for a while now. It's free to join and you can link your profile to your UPlay account. When you accomplish certain things in the game, you get UPlay Points which can be accumulated and spent in any Ubisoft game for additional outfits, gear upgrades, etc. I always thought it was a cool way to reward loyal customers. Now, on top of Uplay, they have Initiates. This tracks your progress in the game and awards you levels. When you attain certain levels you can unlock various golden chests scattered around that have money, additional outfits, etc in them. It will also tell you what kind of assassin you are based on your actions and how you play. ALSO, there's the Unity Companion App on the App store. This is a mini-game which is essentially the abroad missions from Brotherhood and Revelations where you recruit assassins and send them on missions for a period of time and they level up and then you send them on harder missions. Completing missions in the companion app unlock blue chests that contain gear, money, etc. You earn currency that heal assassins and buy new assassins, or you can just outright buy the currency (more microtransactions) and if you pay for the premium version you unlock better assassins etc. Otherwise the app is completely free and enjoyable. Uplay, Initiates and Companion App add a lot of additional content to the game, but can be a bit overwhelming and confusing at first when you're trying to figure out all the mechanics of the actual game. The menus are less user friendly than previous titles in the series.
+Overall, the bottom line is that the bugs have been fixed and it's time to pick a copy up. I've experience zero bugs since playing. This is the most robust AC to date and for everyone out there who, like myself, misses Ezio, your prayers have been answered. The customization and side content in Unity is astounding and the fighting and battle mechanics are the best they've ever been. If you're an AC fan or looking to get into the series, Unity is definitely worth picking up.
+astounding best worth enjoyable cool beautiful interesting unique well free robust easily safe glad well-done larger stunning friendly
+failure bugs unplayable issues marked irritating poor off-putting confusing annoying broken taken stupid fickle overwhelming
+2
+1
+2 7

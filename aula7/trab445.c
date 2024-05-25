@@ -25,7 +25,7 @@ typedef struct {
 
 void separador(char pal[400], char palFormatada[20][20]) {
     int a = 0, l = 0;
-    for(int m = 0; m < strlen(pal) -2; m++) {
+    for(int m = 0; m < strlen(pal) -1; m++) {
         if(pal[m] == '\n' || pal[m] == '\0') {
             pal[m] = '\0';
             palFormatada[a][l] = '\0';
@@ -47,7 +47,7 @@ void separador(char pal[400], char palFormatada[20][20]) {
 
 int ComparadorPositividade(paragrafo texto, char PalForm[20][20]) {
     int positividade1 = 0;
-    for (int s = 0; s < texto.numSetenca; s++) {
+    for (int s = 0; s < texto.numSetenca - 1; s++) {
         for (int p = 0; p < texto.setenca[s].numPalavras; p++) {
             char *palav = texto.setenca[s].palavras[p].letras;
             for (int p1 = 0; p1 < 20; p1++) {
@@ -135,14 +135,14 @@ void Opc1 (paragrafo paragrafos[Num_paragrafo],char PalPosFormatada[20][20],char
         numPalPos += ComparadorPositividade(paragrafos[p], PalPosFormatada); 
         numPalNeg += ComparadorPositividade(paragrafos[p], PalNegFormatada);
     }
-    int positividade = numPalPos - numPalNeg;
+    // int positividade = numPalPos - numPalNeg;
     TestadordePositividade(numPalPos, numPalNeg);
 }
 
 void Opc2 (paragrafo paragrafos,char PalPosFormatada[20][20],char PalNegFormatada[20][20]){
     int numPalPos = ComparadorPositividade(paragrafos, PalPosFormatada); 
     int numPalNeg = ComparadorPositividade(paragrafos, PalNegFormatada);
-    int positividade = numPalPos - numPalNeg;
+    // int positividade = numPalPos - numPalNeg;
     // printf("%d Palavras positivas, %d Palavras negativas: Polaridade %s\n", numPalNeg, numPalPos, positividade >= 0 ? "positiva" : "negativa");
     TestadordePositividade(numPalPos, numPalNeg);
 }
@@ -159,7 +159,7 @@ void Opc3 (paragrafo paragrafos[Num_paragrafo], char PalPosFormatada[20][20],cha
     }
     int numPalPos = ComparadorPositividadeSentenca(maiorsetenca, PalPosFormatada);
     int numPalNeg = ComparadorPositividadeSentenca(maiorsetenca, PalNegFormatada);
-    int positividade = numPalPos - numPalNeg;
+    // int positividade = numPalPos - numPalNeg;
     // printf("Maior setença tam: %d | %s\n",maiorsetenca.numCaracteres,  maiorsetenca.palavras[0].letras);
     // printf("%d Palavras positivas, %d Palavras negativas: Polaridade %s\n", numPalNeg, numPalPos, positividade >= 0 ? "positiva" : "negativa");
     TestadordePositividade(numPalPos, numPalNeg);
@@ -171,10 +171,10 @@ void Opc4 (paragrafo paragrafos[Num_paragrafo], char PalPosFormatada[20][20],cha
 
     for (int p = 0; p < Num_paragrafo; p++) {
         for (int s = 0; s < paragrafos[p].numSetenca; s++) {
-            printf("Teste sentença tam: %d | %s\n", paragrafos[p].setenca[s].numPalavras, paragrafos[p].setenca[s].palavras[0].letras);
+            // printf("Teste sentença tam: %d | %s\n", paragrafos[p].setenca[s].numPalavras, paragrafos[p].setenca[s].palavras[0].letras);
             if (paragrafos[p].setenca[s].numPalavras > 1) {
                 if (paragrafos[p].setenca[s].numPalavras < menorsetenca.numPalavras){
-                printf("MEnor sentença tam: %d | %s\n", paragrafos[p].setenca[s].numPalavras, paragrafos[p].setenca[s].palavras[0].letras);
+                // printf("MEnor sentença tam: %d | %s\n", paragrafos[p].setenca[s].numPalavras, paragrafos[p].setenca[s].palavras[0].letras);
                     menorsetenca = paragrafos[p].setenca[s];
                 }
             }
@@ -183,7 +183,7 @@ void Opc4 (paragrafo paragrafos[Num_paragrafo], char PalPosFormatada[20][20],cha
 
     int numPalPos = ComparadorPositividadeSentenca(menorsetenca, PalPosFormatada);
     int numPalNeg = ComparadorPositividadeSentenca(menorsetenca, PalNegFormatada);
-    printf("Menor sentença tam: %d | %s\n", menorsetenca.numCaracteres, menorsetenca.palavras[0].letras);
+    // printf("Menor sentença tam: %d | %s\n", menorsetenca.numCaracteres, menorsetenca.palavras[0].letras);
     TestadordePositividade(numPalPos, numPalNeg);
 
     // setenca menorsetenca = {0,1000000,0};
@@ -324,6 +324,7 @@ int main() {
     // for (int a = 0; a < 20; a++) {
     //     if (PalPosFormatada[a][0] != '\0') {
     //         printf("palPos: '%s'\n", PalPosFormatada[a]);
+    //         printf("palNeg: '%s'\n", PalNegFormatada[a]);
     //     }
     // }
     // int qntQuestoes;
