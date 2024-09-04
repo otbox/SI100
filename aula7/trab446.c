@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-//arquivo enviado no susy
-
 #define maxLetras 20
 #define maxPalavras 70
 #define maxSetencas 20
@@ -90,7 +88,7 @@ void TestadordePositividade(int posPos, int posNeg) {
         textoPositividade = "negativa";
     }else if(posNeg > 0 && posPos == 0){
         textoPositividade = "negativa";
-    }pactl list | grep a2dp_codec
+    }
 
     printf("%d Palavras positivas, %d Palavras negativas: Polaridade %s\n", posPos, posNeg, textoPositividade);
 }
@@ -101,15 +99,12 @@ void Opc1 (paragrafo paragrafos[Num_paragrafo],char PalPosFormatada[20][20],char
         numPalPos += ComparadorPositividade(paragrafos[p], PalPosFormatada); 
         numPalNeg += ComparadorPositividade(paragrafos[p], PalNegFormatada);
     }
-    // int positividade = numPalPos - numPalNeg;
     TestadordePositividade(numPalPos, numPalNeg);
 }
 
 void Opc2 (paragrafo paragrafos,char PalPosFormatada[20][20],char PalNegFormatada[20][20]){
     int numPalPos = ComparadorPositividade(paragrafos, PalPosFormatada); 
     int numPalNeg = ComparadorPositividade(paragrafos, PalNegFormatada);
-    // int positividade = numPalPos - numPalNeg;
-    // printf("%d Palavras positivas, %d Palavras negativas: Polaridade %s\n", numPalNeg, numPalPos, positividade >= 0 ? "positiva" : "negativa");
     TestadordePositividade(numPalPos, numPalNeg);
 }
 
@@ -125,9 +120,7 @@ void Opc3 (paragrafo paragrafos[Num_paragrafo], char PalPosFormatada[20][20],cha
     }
     int numPalPos = ComparadorPositividadeSentenca(maiorsetenca, PalPosFormatada);
     int numPalNeg = ComparadorPositividadeSentenca(maiorsetenca, PalNegFormatada);
-    // int positividade = numPalPos - numPalNeg;
     // printf("Maior setença tam: %d | %s\n",maiorsetenca.numCaracteres,  maiorsetenca.palavras[0].letras);
-    // printf("%d Palavras positivas, %d Palavras negativas: Polaridade %s\n", numPalNeg, numPalPos, positividade >= 0 ? "positiva" : "negativa");
     TestadordePositividade(numPalPos, numPalNeg);
 }
 
@@ -249,15 +242,7 @@ int main() {
         sc++;
         l++;
     }
-    // for (int k = 0; k < Num_paragrafo; k++) {
-    // printf("Parágrafo %d tem %d sentenças:\n", k + 1, paragrafos[k].numSetenca);
-    //     for (int b = 0; b < paragrafos[k].numSetenca; b++) {
-    //         printf("  Sentença %d tem %d palavras e %d caracteres:\n", b + 1, paragrafos[k].setenca[b].numPalavras, paragrafos[k].setenca[b].numCaracteres);
-    //         for (int w = 0; w < paragrafos[k].setenca[b].numPalavras; w++) {
-    //             printf("    Palavra %d: %s Letras: %d\n", w + 1, paragrafos[k].setenca[b].palavras[w].letras,paragrafos[k].setenca[b].palavras[w].numLetras);
-    //         }
-    //     }
-    // }
+
     char PalPositivas[400];
     char PalNegativas[400];
     char PalPosFormatada[20][20];
@@ -268,55 +253,9 @@ int main() {
 
     separador(PalPositivas, PalPosFormatada);
     separador(PalNegativas, PalNegFormatada);
-
-
-    // for (int a = 0; a < 20; a++) {
-    //     if (PalPosFormatada[a][0] != '\0') {
-    //         printf("palPos: '%s'\n", PalPosFormatada[a]);
-    //         printf("palNeg: '%s'\n", PalNegFormatada[a]);
-    //     }
-    // }
-    // int qntQuestoes;
-    // scanf("%d", &qntQuestoes);
     
     escolherOpc(paragrafos, PalPosFormatada, PalNegFormatada);
-    //  Opc4(paragrafos, PalPosFormatada, PalNegFormatada);
-    // int qntQuestoes;
-    // int P2Questoes[qntQuestoes];
-    // int ordem[qntQuestoes];
-    // scanf("%d", &qntQuestoes);
-    // int j = 0; 
-    // for(int nq = 0; nq < qntQuestoes; nq++){
-    //     int questao = 0;
-    //     scanf("%d", &questao);
-    //     ordem[nq] = questao;
-    //     if(questao == 2){
-    //         scanf(" %d", &P2Questoes[j]);
-    //         j++;
-    //     }
-    // }
-    // for(int nq = 0; nq < qntQuestoes; nq++){
-    //     if(ordem[nq] == 1){
-    //         Opc1(paragrafos, PalPosFormatada, PalNegFormatada);
-    //         continue;
-    //     }
-    //     if(ordem[nq] == 2){
-    //         for(int nq2 = 0; nq2 < j; nq2++){
-    //             Opc2(paragrafos[nq2], PalPosFormatada, PalNegFormatada);
-    //             printf("Aqui");
-    //         }
-    //         continue;
-    //     }
-    //     if(ordem[nq] == 3){
-    //        Opc3(paragrafos, PalPosFormatada, PalNegFormatada);
-    //     }
-    //     if(ordem[nq] == 4){
-    //         Opc4(paragrafos, PalPosFormatada, PalNegFormatada);
-    //     }
-    // }
-        // Opc1(paragrafos, PalPosFormatada, PalNegFormatada);
-    //     Opc2(paragrafos[7], PalPosFormatada, PalNegFormatada);
-        // Opc3(paragrafos, PalPosFormatada, PalNegFormatada);
+
     return 0;
 }
 
